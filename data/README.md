@@ -19,3 +19,14 @@ The dataset contains transaction-related attributes intended to support the expl
 
 ## Data Preparation
 The raw dataset was imported into Amazon SageMaker Data Wrangler for data preparation. The workflow included handling missing values, removing duplicate records, and preparing transaction features for model building.
+
+## Target Variable
+The `is_fraud` target column was used for binary classification in Amazon SageMaker Canvas.
+`0` Legitimate transaction 
+`1` Fraudulent transaction 
+
+The target column belongs to the prepared dataset used for modeling; it is only present in the processed CSV: `processed_data`.
+
+## Intended Use
+This dataset supports an educational proof of concept for exploring transaction data preparation and binary classification with AWS machine learning services.
+
