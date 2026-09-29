@@ -22,3 +22,6 @@ The prepared dataset was used in Amazon SageMaker Canvas to build a binary class
 
 ## Notes
 This workflow demonstrates data preparation and feature engineering on synthetic transaction data. The usefulness of derived features and their ability to generalize to real-world fraud patterns require further evaluation.
+
+# Data Flow
+<img width="1920" height="972" alt="Screenshot 2026-09-26 180310" src="https://github.com/user-attachments/assets/1494e978-8516-49dd-baed-43850b5810b7" />
